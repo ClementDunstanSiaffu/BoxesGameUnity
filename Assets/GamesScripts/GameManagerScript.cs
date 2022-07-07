@@ -10,10 +10,6 @@ public class GameManagerScript : MonoBehaviour
     public float delayTimer = 1f;
     public GameObject levelUI;
 
-    //public void Start()
-    //{
-    //    //levelUI = GameObject.Find("NextLevelPanel");
-    //}
 
     public void endGame()
     {
@@ -37,7 +33,7 @@ public class GameManagerScript : MonoBehaviour
 
     public void navigateToNextScene()
     {
-        if (SceneManager.GetActiveScene().buildIndex + 1 <= 2)
+        if (SceneManager.GetActiveScene().buildIndex + 1 <= 3)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
@@ -46,7 +42,6 @@ public class GameManagerScript : MonoBehaviour
             SceneManager.LoadScene(0);
         }
     }
-      
 
 
 }

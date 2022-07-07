@@ -18,6 +18,6 @@ public class DisplayPosition : MonoBehaviour
 
     void Update()
     {
-        positionText.text = playerPosition.position.z.ToString();
+        positionText.text = playerPosition.position.z.ToString("0");
     }
 }

@@ -1420,6 +1420,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6573997381424465533, guid: 26cc2e39780e44a82a10e5ace6f55ab4,
         type: 3}
+      propertyPath: m_Text
+      value: Level 3 is completed
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573997381424465533, guid: 26cc2e39780e44a82a10e5ace6f55ab4,
+        type: 3}
       propertyPath: m_FontData.m_MaxSize
       value: 80
       objectReference: {fileID: 0}

@@ -356,8 +356,10 @@
 "Assets/GamesScripts/DisplayPosition.cs"
 "Assets/GamesScripts/GameEndScript.cs"
 "Assets/GamesScripts/GameManagerScript.cs"
+"Assets/GamesScripts/NoButtonScript.cs"
 "Assets/GamesScripts/PlayerCollision.cs"
 "Assets/GamesScripts/PlayerMovement.cs"
+"Assets/GamesScripts/YesButtonScript.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
